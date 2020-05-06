@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name" translatable="false">My Application</string>
+    <string name="orange_text">This is an orange TextView</string>
+    <string name="green_text">This is an green TextView</string>
+    <string name="blue_text">This is a blue TextView</string>
+    <string name="btn_blue_text">This is a blue button</string>
+    <string name="btn_green_text">This is a green button</string>
+    <string name="login">LOGIN</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="submit">SUBMIT</string>
+    <string name="accept_t_c"><![CDATA[Accept T&C]]></string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non posuere risus. Vivamus vel vestibulum dui. In id nulla ultricies, tristique ante vitae, venenatis leo. Integer imperdiet enim varius, molestie nisl eu, ultrices massa. Maecenas at erat ut nunc pellentesque rutrum. Cras dapibus mi non bibendum maximus. Praesent at erat ac erat tristique lacinia nec eget mi. Curabitur congue, metus a feugiat vestibulum, diam dui tincidunt metus, a pharetra quam orci id urna. Fusce pretium nibh tortor, vitae scelerisque nunc fermentum id. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In ac ante rutrum, blandit lorem quis, porttitor lectus.</string>
+</resources>

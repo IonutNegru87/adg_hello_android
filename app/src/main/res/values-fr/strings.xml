@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="orange_text">This is an orange TextView for French</string>
+    <string name="green_text">This is an green TextView</string>
+    <string name="blue_text">This is a blue TextView</string>
+    <string name="btn_blue_text">This is a blue button</string>
+    <string name="btn_green_text">This is a green button</string>
+    <string name="email">Email</string>
+    <string name="submit">SUBMIT</string>
+
+</resources>
