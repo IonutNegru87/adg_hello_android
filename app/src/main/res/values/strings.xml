@@ -5,11 +5,56 @@
     <string name="blue_text">This is a blue TextView</string>
     <string name="btn_blue_text">This is a blue button</string>
     <string name="btn_green_text">This is a green button</string>
-    <string name="login">LOGIN</string>
+    <string name="login" translatable="false">LOGIN</string>
     <string name="email">Email</string>
-    <string name="phone">Phone</string>
+    <string name="phone" translatable="false">Phone</string>
     <string name="submit">SUBMIT</string>
-    <string name="accept_t_c"><![CDATA[Accept T&C]]></string>
+    <string name="accept_t_c" translatable="false"><![CDATA[Accept T&C]]></string>
 
-    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non posuere risus. Vivamus vel vestibulum dui. In id nulla ultricies, tristique ante vitae, venenatis leo. Integer imperdiet enim varius, molestie nisl eu, ultrices massa. Maecenas at erat ut nunc pellentesque rutrum. Cras dapibus mi non bibendum maximus. Praesent at erat ac erat tristique lacinia nec eget mi. Curabitur congue, metus a feugiat vestibulum, diam dui tincidunt metus, a pharetra quam orci id urna. Fusce pretium nibh tortor, vitae scelerisque nunc fermentum id. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In ac ante rutrum, blandit lorem quis, porttitor lectus.</string>
+    <string name="lorem_ipsum" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non posuere risus. Vivamus vel vestibulum dui. In id nulla ultricies, tristique ante vitae, venenatis leo. Integer imperdiet enim varius, molestie nisl eu, ultrices massa. Maecenas at erat ut nunc pellentesque rutrum. Cras dapibus mi non bibendum maximus. Praesent at erat ac erat tristique lacinia nec eget mi. Curabitur congue, metus a feugiat vestibulum, diam dui tincidunt metus, a pharetra quam orci id urna. Fusce pretium nibh tortor, vitae scelerisque nunc fermentum id. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In ac ante rutrum, blandit lorem quis, porttitor lectus.</string>
+    <string name="go_next" translatable="false">go next</string>
+    <string name="text_one" translatable="false">Text One</string>
+    <string name="text_two" translatable="false">Text Two</string>
+    <string name="text_three" translatable="false">Text Three</string>
+
+    <string name="text_long_label" translatable="false">Long text %1$s:\n\n%2$s!</string>
+    <string name="one_word" translatable="false">one</string>
+    <string name="two_word" translatable="false">two</string>
+    <string name="three_word" translatable="false">three</string>
+    <string name="lorem_ipsum_long" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur tellus ipsum, lobortis dapibus ante mollis id. Phasellus eros elit, laoreet nec justo vel, sodales aliquet urna. In hac habitasse platea dictumst. Aliquam laoreet maximus magna, sit amet dignissim dui molestie in. Sed ac erat malesuada, ullamcorper dui vitae, cursus nisi. Nunc faucibus cursus egestas. Suspendisse leo est, auctor at facilisis a, luctus in sapien. Etiam vulputate elit id sodales posuere. Morbi feugiat, felis vel cursus cursus, tortor justo condimentum arcu, ac semper magna erat eu sem. Nulla ornare aliquet luctus. Proin quis tortor sed dolor pharetra vulputate ut ut erat. Phasellus dictum lectus non dignissim posuere. Aliquam elementum orci massa, ut eleifend arcu malesuada ac. Morbi cursus dolor a arcu ullamcorper sollicitudin. Pellentesque porta a dolor maximus tristique. Integer in nisi ut leo sodales porta.
+
+Quisque vitae odio urna. Nam id pharetra lacus. Quisque finibus tempor nisl, ac tempus turpis maximus finibus. Nullam ultricies tempus erat non tincidunt. Proin iaculis odio egestas, consectetur velit euismod, cursus enim. Integer nunc lacus, lobortis nec convallis a, egestas ac ligula. Pellentesque luctus nunc eget risus imperdiet, eu pharetra ligula rutrum.
+
+Pellentesque commodo id leo a sodales. Sed lobortis auctor lectus ut porta. Sed eget risus vitae dolor laoreet consequat. Ut vitae enim varius, porttitor lorem ut, eleifend urna. Ut ullamcorper vehicula eleifend. In faucibus justo vel tortor condimentum varius. Etiam tincidunt odio eu ex porttitor rhoncus. In hac habitasse platea dictumst. Maecenas euismod enim tempor nunc interdum mattis. Integer at dui sit amet lorem faucibus finibus. Proin vel odio sed nulla elementum ullamcorper. Nullam commodo accumsan tincidunt. Sed mi erat, sodales id tincidunt sit amet, mattis in quam. Ut luctus tempor fringilla. Donec vitae dolor eget mi bibendum congue sit amet et mi. Proin ultrices placerat tortor.
+
+Pellentesque efficitur ac mauris nec tempor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In arcu ligula, bibendum nec condimentum sed, sollicitudin ac ante. Etiam eget nulla ante. Vestibulum et urna vel ante posuere tempus nec sit amet eros. In pretium enim eu dolor consectetur, quis dignissim neque egestas. Duis ultricies vulputate nisi, in mattis nisl auctor vitae. Maecenas gravida dui eu metus molestie efficitur. Nam eu lacinia turpis. Morbi vitae purus et ligula facilisis mollis. Donec scelerisque, est non scelerisque facilisis, dui nulla fringilla lacus, ac commodo est purus vitae mauris. Nullam tempus ultrices nisi, quis aliquet sem aliquet in.
+
+Cras fermentum nulla nec dui vestibulum malesuada. Morbi porta dapibus vestibulum. Phasellus posuere sodales ex ac tristique. Nam fringilla pulvinar nulla, a cursus est egestas ac. Curabitur scelerisque ipsum suscipit sollicitudin rhoncus. Maecenas ac felis metus. Praesent et iaculis felis. Vestibulum porttitor, felis sed hendrerit placerat, ipsum nisi dictum arcu, nec elementum mauris metus vitae enim. Quisque posuere blandit eros non tincidunt.
+
+Nam ipsum neque, dignissim quis aliquam a, porta eu mi. Duis vel lorem iaculis, vehicula dui at, tristique felis. Curabitur consequat leo eu sem luctus commodo. Phasellus dictum, risus sed congue interdum, arcu ligula vestibulum dui, vel consectetur odio nibh vel sapien. Donec consequat finibus lacinia. Suspendisse velit sem, finibus id tellus quis, tincidunt auctor orci. Donec eget risus vitae purus elementum rhoncus. Donec vitae facilisis est, ac tincidunt enim. Duis semper felis sapien, vitae dictum neque rhoncus vel. Suspendisse lacinia purus et magna euismod tempor. Vivamus accumsan metus nisl, sed euismod lorem volutpat eu.
+
+Nullam sagittis, enim vel porttitor mollis, ipsum neque maximus tortor, sit amet vestibulum arcu ipsum at orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed blandit enim rhoncus ipsum varius, id facilisis mauris vulputate. Morbi molestie urna et nunc viverra, in placerat nisl hendrerit. Fusce sodales ultrices ornare. In molestie dui et risus ullamcorper, pharetra viverra augue porttitor. Sed pellentesque turpis eget erat sollicitudin, eget malesuada purus feugiat.
+
+Proin non dapibus nulla. Nam at lorem consectetur, viverra enim et, sollicitudin quam. Etiam pharetra justo in ante feugiat, in faucibus erat dapibus. Etiam ac libero ut nibh pulvinar pellentesque sit amet vitae urna. Ut vestibulum placerat metus vitae elementum. In posuere vitae ante et lobortis. Morbi non bibendum nisi, dignissim sagittis nulla. Cras erat mi, fringilla in interdum ac, elementum sed magna. Integer tincidunt mauris ut dignissim gravida. Sed sagittis consectetur ipsum, id feugiat ex aliquet eu. Proin vitae lacus ac orci tristique tristique. Donec fringilla porta placerat.
+
+Quisque blandit pretium maximus. Nam congue gravida est nec consectetur. Nunc suscipit facilisis lectus. Aenean blandit diam tortor. Morbi interdum leo aliquet erat elementum aliquam. Maecenas convallis mi vitae sapien convallis, quis porta mauris finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+
+Vestibulum bibendum tincidunt neque non malesuada. Aliquam sed sodales dui. Nulla sed consectetur velit, sit amet egestas arcu. Suspendisse dolor sem, suscipit pellentesque sodales eget, egestas et leo. Etiam est risus, ultrices nec finibus non, egestas a turpis. Curabitur posuere sit amet tortor ac vestibulum. Fusce tempor sodales neque. Mauris fermentum lectus augue, a sagittis risus posuere a. Pellentesque gravida quam eu lorem elementum congue. In sed nibh risus. Nulla blandit lobortis enim vel sollicitudin.</string>
+    <string name="no_text_via_intent" translatable="false">No text received via Intent bundle!</string>
+    <string name="message" translatable="false">Message</string>
+    <string name="send" translatable="false">send</string>
+    <string name="message_received" translatable="false">Message received</string>
+    <string name="reply_received" translatable="false">Reply received</string>
+    <string name="open_website" translatable="false">open website</string>
+    <string name="open_location" translatable="false">open location</string>
+    <string name="share_text" translatable="false">share text</string>
+    <string name="call" translatable="false">call</string>
+    <string name="hint_website" translatable="false">Enter website full url</string>
+    <string name="hint_location" translatable="false">Enter location name</string>
+    <string name="hint_share_text" translatable="false">Enter text to share</string>
+    <string name="hint_phone_number" translatable="false">Enter phone number</string>
+
+    <string name="rationale_title" translatable="false">We need permission to make a phone call</string>
+    <string name="rationale_desc" translatable="false">In order to make a phone call we need you to allow the app the necessary permission. Without this permission this feature won\'t be available!</string>
+
 </resources>
