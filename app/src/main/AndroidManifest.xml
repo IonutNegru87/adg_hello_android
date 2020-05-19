@@ -14,7 +14,8 @@
         android:theme="@style/AppTheme">
 
         <!-- Starting courses -->
-        <activity android:name=".SplashScreen">
+        <activity android:name=".SplashScreen"
+            android:theme="@style/SplashScreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
