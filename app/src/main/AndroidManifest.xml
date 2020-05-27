@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.inegru.siit.myapplication">
-
     <!-- Here we define all the permissions required by the application -->
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
@@ -12,31 +11,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <!-- Starting courses -->
-        <activity android:name=".SplashScreen"
+        <activity android:name=".week7.DatePickerActivity"></activity>
+        <activity android:name=".week7.BatteryActivity" />
+        <activity android:name=".week7.CardViewActivity" /> <!-- Starting courses -->
+        <activity
+            android:name=".SplashScreen"
             android:theme="@style/SplashScreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-
-        <!-- Week 2 -->
-        <activity android:name=".week2.MainActivity" />
-
-        <!-- Week 3 -->
+        </activity> <!-- Week 2 -->
+        <activity android:name=".week2.MainActivity" /> <!-- Week 3 -->
         <activity android:name=".week3.ScrollViewActivity" />
         <activity
             android:name=".week3.LoginActivity"
-            android:theme="@style/AppTheme.Second" />
-
-        <!-- Week 4 -->
+            android:theme="@style/AppTheme.Second" /> <!-- Week 4 -->
         <activity android:name=".week4.RecyclerViewActivity" />
-        <activity android:name=".week4.ClDemoActivity" />
-
-        <!-- Week 5 -->
+        <activity android:name=".week4.ClDemoActivity" /> <!-- Week 5 -->
         <activity android:name=".week5.LifecycleActivity" />
         <activity android:name=".week5.SecondActivity" />
         <activity android:name=".week5.ThreeButtonActivity" />
@@ -46,7 +39,9 @@
         <activity
             android:name=".week5.ChatTwoActivity"
             android:windowSoftInputMode="adjustResize" />
-        <activity android:name=".week5.ImplicitIntentActivity" />
+        <activity android:name=".week5.ImplicitIntentActivity" /> <!-- Week 6 -->
+        <activity android:name=".week6.HelloFragmentActivity" />
+        <activity android:name=".week6.HelloFragmentDynamicActivity" />
     </application>
 
 </manifest>

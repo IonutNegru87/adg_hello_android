@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".week7.BatteryActivity">
+
+    <ImageView
+        android:id="@+id/battery"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/battery_level"
+        tools:ignore="ContentDescription" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="battery" />
+
+    <Button
+        android:id="@+id/minus"
+        style="@style/ButtonBattery"
+        android:layout_marginEnd="48dp"
+        android:onClick="onBatteryChangeDecrement"
+        android:text="@string/minus_symbol"
+        app:layout_constraintBaseline_toBaselineOf="@id/plus"
+        app:layout_constraintBottom_toBottomOf="@+id/plus"
+        app:layout_constraintEnd_toStartOf="@id/plus"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/barrier" />
+
+    <Button
+        android:id="@+id/plus"
+        style="@style/ButtonBattery"
+        android:layout_marginTop="24dp"
+        android:onClick="onBatteryChangeIncrement"
+        android:text="@string/plus_symbol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/minus"
+        app:layout_constraintTop_toBottomOf="@id/barrier" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

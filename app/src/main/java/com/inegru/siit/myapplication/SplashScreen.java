@@ -6,7 +6,7 @@ import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.inegru.siit.myapplication.week5.ImplicitIntentActivity;
+import com.inegru.siit.myapplication.week7.DatePickerActivity;
 
 // Usually this intermediate activity is not needed (we can apply the splash theme on any starting activity),
 // but for this course it is useful because we can redirect to the desired course without moving the launcher
@@ -24,7 +24,7 @@ public class SplashScreen extends AppCompatActivity {
         // is set directly on the window by the theme
 
         // Redirect to the desired activity
-        startActivity(new Intent(this, ImplicitIntentActivity.class));
+        startActivity(new Intent(this, DatePickerActivity.class));
 
         // Close splash screen so that it doesn't stay in back stack
         finish(); // if we don't call this the user can actually go back to splash activity

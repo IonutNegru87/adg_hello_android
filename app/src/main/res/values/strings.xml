@@ -56,5 +56,9 @@ Vestibulum bibendum tincidunt neque non malesuada. Aliquam sed sodales dui. Null
 
     <string name="rationale_title" translatable="false">We need permission to make a phone call</string>
     <string name="rationale_desc" translatable="false">In order to make a phone call we need you to allow the app the necessary permission. Without this permission this feature won\'t be available!</string>
+    <string name="minus_symbol" translatable="false">-</string>
+    <string name="plus_symbol" translatable="false">+</string>
+    <string name="show_date_picker" translatable="false">Show Date Picker</string>
+    <string name="date_selected_n" translatable="false">Date selected: %1$s</string>
 
 </resources>
