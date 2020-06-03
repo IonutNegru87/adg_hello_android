@@ -8,16 +8,45 @@
     tools:context=".week8.NetworkActivity">
 
     <TextView
+        android:id="@+id/topText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="12dp"
+        android:text="@string/execute_all_sync"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnExecuteAllSync"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:onClick="executeAllSync"
+        android:padding="12dp"
+        android:text="@string/top_rated_movies"
+        android:textSize="24sp"
+        app:backgroundTint="@color/colorAccent"
+        app:layout_constraintTop_toBottomOf="@id/topText"
+        app:layout_constraintEnd_toEndOf="@id/btnNowPlayingMovies"
+        app:layout_constraintStart_toStartOf="@id/btnNowPlayingMovies" />
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:gravity="center_horizontal"
+        android:layout_marginBottom="12dp"
         android:text="@string/network_description_title"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toTopOf="@id/btnTopRatedMovies" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnTopRatedMovies"
@@ -31,8 +60,8 @@
         android:textSize="24sp"
         app:backgroundTint="@color/colorAccent"
         app:layout_constraintBottom_toTopOf="@id/btnUpcomingMovies"
-        app:layout_constraintEnd_toEndOf="@+id/btnNowPlayingMovies"
-        app:layout_constraintStart_toStartOf="@+id/btnNowPlayingMovies" />
+        app:layout_constraintEnd_toEndOf="@id/btnNowPlayingMovies"
+        app:layout_constraintStart_toStartOf="@id/btnNowPlayingMovies" />
 
     <Button
         android:id="@+id/btnUpcomingMovies"
@@ -45,8 +74,8 @@
         android:text="@string/upcoming_movies"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@id/btnNowPlayingMovies"
-        app:layout_constraintEnd_toEndOf="@+id/btnNowPlayingMovies"
-        app:layout_constraintStart_toStartOf="@+id/btnNowPlayingMovies" />
+        app:layout_constraintEnd_toEndOf="@id/btnNowPlayingMovies"
+        app:layout_constraintStart_toStartOf="@id/btnNowPlayingMovies" />
 
     <Button
         android:id="@+id/btnNowPlayingMovies"

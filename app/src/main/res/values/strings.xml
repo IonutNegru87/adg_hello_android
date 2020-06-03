@@ -63,6 +63,7 @@ Vestibulum bibendum tincidunt neque non malesuada. Aliquam sed sodales dui. Null
     <string name="top_rated_movies" translatable="false">Top Rated Movies</string>
     <string name="upcoming_movies" translatable="false">Upcoming Movies</string>
     <string name="now_playing_movies" translatable="false">Now Playing Movies</string>
-    <string name="network_description_title">Choose a request and wait for it\'s asynchronous execution</string>
+    <string name="network_description_title" translatable="false">Choose a request and wait for it\'s asynchronous execution</string>
+    <string name="execute_all_sync" translatable="false">Execute all networks requests in sequence</string>
 
 </resources>
