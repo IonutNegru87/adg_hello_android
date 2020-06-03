@@ -60,5 +60,9 @@ Vestibulum bibendum tincidunt neque non malesuada. Aliquam sed sodales dui. Null
     <string name="plus_symbol" translatable="false">+</string>
     <string name="show_date_picker" translatable="false">Show Date Picker</string>
     <string name="date_selected_n" translatable="false">Date selected: %1$s</string>
+    <string name="top_rated_movies" translatable="false">Top Rated Movies</string>
+    <string name="upcoming_movies" translatable="false">Upcoming Movies</string>
+    <string name="now_playing_movies" translatable="false">Now Playing Movies</string>
+    <string name="network_description_title">Choose a request and wait for it\'s asynchronous execution</string>
 
 </resources>

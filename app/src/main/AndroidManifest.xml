@@ -4,6 +4,8 @@
     <!-- Here we define all the permissions required by the application -->
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
@@ -11,7 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".week7.DatePickerActivity"></activity>
+        <activity android:name=".week7.DatePickerActivity" />
         <activity android:name=".week7.BatteryActivity" />
         <activity android:name=".week7.CardViewActivity" /> <!-- Starting courses -->
         <activity
@@ -42,6 +44,9 @@
         <activity android:name=".week5.ImplicitIntentActivity" /> <!-- Week 6 -->
         <activity android:name=".week6.HelloFragmentActivity" />
         <activity android:name=".week6.HelloFragmentDynamicActivity" />
+
+        <activity android:name=".week8.NetworkActivity"/>
+
     </application>
 
 </manifest>
